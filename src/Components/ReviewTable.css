@@ -1,0 +1,26 @@
+.review-table {
+	border-collapse: collapse;
+	font-size: 0.9em;
+	margin: 25px 0;
+}
+
+th {
+	background-color: #217346;
+	color: #ffffff;
+	text-align: left;
+	font-weight: bold;
+}
+
+tbody tr:nth-of-type(odd) {
+	background-color: lightgray;
+}
+
+/* th,
+td {
+	padding: 5px;
+} */
+
+td {
+	border-color: red;
+	border-style: dashed;
+}
